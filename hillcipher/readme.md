@@ -20,4 +20,14 @@ To install the required dependencies, use the following command:
 
 ```bash
 pip install numpy
+```
 
+## Encryption
+The plaintext is broken into blocks of letters, with each block's size corresponding to the dimensions of the key matrix.
+Each letter is converted to a number (A = 0, B = 1, ..., Z = 25).
+The key matrix is multiplied by the plaintext matrix, and the resulting values are taken modulo 26 to get the ciphertext.
+The resulting numbers are converted back into letters to form the encrypted message.
+## Decryption
+The inverse of the key matrix (mod 26) is calculated.
+The ciphertext is multiplied by the inverse key matrix.
+The result is taken modulo 26 to recover the original plaintext.
