@@ -76,9 +76,4 @@ Contributions are welcome! If you'd like to contribute, please follow these step
 3. Commit your changes.
 4. Submit a pull request.
 
-## Contact
-For questions or feedback, please contact:
 
-- **Author:** Samruddi N.G
-- **Email:** samruddi3504@gmail.com
-- **GitHub:** [03NgSam](https://github.com/03NgSam)
